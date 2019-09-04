@@ -17,36 +17,21 @@ scissors.addEventListener( "click", function(){
   compare(userChoice)
 });
 
-// var compChoice;
-// rock.addEventListener( function(){
-//   compChoice = this.id;
-// });
-// paper.addEventListener( function(){
-//   compChoice = this.id;
-// });
-// scissors.addEventListener( function(){
-//   compChoice = this.id;
-// });
-function
-
-
-
-
-
 function compare(userChoice){
   var battle = ["rock", "paper", "scissors"];
   compChoice = battle[Math.floor(Math.random()*battle.length)];
   if (userChoice === compChoice){
-    return "Ah Rats it's a Tie"
-    } else if (
+        document.getElementById("outcome").innerHTML = "TIE";
+      }
+     else if (
       userChoice === "rock" && compChoice === "scissors" ||
       userChoice === "paper" && compChoice === "rock" ||
       userChoice === "scissors" && compChoice === "paper"
-      ){
-        return "You Win"
-
-    } else {
-      return "You Lose"
+      ){ 
+        document.getElementById("outcome").innerHTML = "WINNER";
+      }
+     else {
+        document.getElementById("outcome").innerHTML = "YOU LOSE!";
     }
   }
 
