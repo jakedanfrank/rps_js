@@ -1,0 +1,7 @@
+.choices {
+  height: 300px;
+  width: 400px;
+  border: 1px solid purple;
+  cursor: pointer;
+  background: #D1FF33
+}
