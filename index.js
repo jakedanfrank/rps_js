@@ -27,6 +27,11 @@ scissors.addEventListener( "click", function(){
 // scissors.addEventListener( function(){
 //   compChoice = this.id;
 // });
+function
+
+
+
+
 
 function compare(userChoice){
   var battle = ["rock", "paper", "scissors"];
@@ -44,8 +49,6 @@ function compare(userChoice){
       return "You Lose"
     }
   }
-
-
 
   // get comp choice
   // display those choices to the browser

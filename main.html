@@ -1,26 +1,35 @@
 <html>    <!-- BUILD HTML FIRST -->
-  <head>
+<head>
+    <div class="bg">
     <title>ROCK! - PAPER! - SCISSORS!</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <div style="text-align:center">
-    <h1 style="font-size:50px;">TEST YOUR MIGHT!</h1></div> <!--- SOME TYPE OF HEADER CENTERED -->
+    <div class="head">
+    <h1 style="font-size:50px;">TEST YOUR MIGHT!</h1>
+    </div>
   </head>
-
-  <body>
-    <img id="rock" class="choices" 
-    src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_640,f_auto/MA_00069944_dfgzir.jpg"/>
-    <img id="paper" class="choices" 
-    src="https://desperatehouseholds.co.za/wp-content/uploads/ToiletPaper2Ply.png"/>
-    <img id="scissors" class="choices" 
-    src="https://cdn.pixabay.com/photo/2016/03/31/23/11/scissors-1297454__340.png"/>
-    
-    <script src="index.js">
-    function compare(){
+  
+    <body>
+      <div class="row">
+        <div class="column">  
+          <img id="rock" alt="rock" class="choices" 
+          src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_640,f_auto/MA_00069944_dfgzir.jpg"/>
+        </div>
+        <div class="column">
+          <img id="paper" alt="paper" class="choices" 
+          src="https://desperatehouseholds.co.za/wp-content/uploads/ToiletPaper2Ply.png"/>
+        </div>
+        <div class="column">
+          <img id="scissors" alt="scissors" class="choices" 
+          src="https://cdn.pixabay.com/photo/2016/03/31/23/11/scissors-1297454__340.png"/>
+        </div>
+      </div>
       
-    }
-    </script> 
+      <script src="index.js">
+        
+      </script> 
   </body>
-</html>
+  </html>
+</div> <!-- div class bg -->
 
 
 
